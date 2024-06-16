@@ -4,8 +4,14 @@ node-1, node-2, node-3, node-4
 
 * dependencies
 
+```bash
+besu --version
 ```
-besu
+
+* permission
+
+```bash
+chmod +x check.sh clique-rpc.sh generate.sh node-1.start.sh node-2.start.sh node-3.start.sh node-4.start.sh remove.sh setup.sh
 ```
 
 ### init

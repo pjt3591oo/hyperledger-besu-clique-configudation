@@ -1,9 +1,17 @@
 #!/bin/bash
 
+CHAIN_ID_DEFAULT=10
+BLOCK_PERIOD_SECONDS_DEFAULT=2
+CREATE_EMPTY_BLOCKS_DEFAULT='YES'
+EPOCH_LENGTH_DEFAULT=30000
+SIGNER_SELECT_DEFAULT='1,2'
+
+
+
 function getChainId() {
-  read -p "chain id? (default: 10)" chainid
+  read -p "chain id? (default: $CHAIN_ID_DEFAULT)" chainid
   if [ -z "$chainid" ]; then
-    chainid=10
+    chainid=$CHAIN_ID_DEFAULT
   fi
 
   echo $chainid
@@ -11,7 +19,7 @@ function getChainId() {
 
 
 function getCreateEmptyBlocks() {
-  read -p "is create empty block? (yes or no, default: yes)" createemptyblocks
+  read -p "is create empty block? (yes or no, default: $CREATE_EMPTY_BLOCKS_DEFAULT)" createemptyblocks
   if [ -z "$createemptyblocks" ]; then
     echo true
     return
@@ -27,16 +35,16 @@ function getCreateEmptyBlocks() {
 function getEpochLength() {
   read -p "epoch length? (default: 30,000)" epochlength
   if [ -z "$epochlength" ]; then
-    epochlength=30000
+    epochlength=$EPOCH_LENGTH_DEFAULT
   fi
   
   echo $epochlength
 }
 
 function getBlockPeriodSeconds() {
-  read -p "block period seconds? (default: 15)" blockperiodseconds
+  read -p "block period seconds? (default: $BLOCK_PERIOD_SECONDS_DEFAULT)" blockperiodseconds
   if [ -z "$blockperiodseconds" ]; then
-    blockperiodseconds=15
+    blockperiodseconds=$BLOCK_PERIOD_SECONDS_DEFAULT
   fi
   
   echo $blockperiodseconds
@@ -57,9 +65,9 @@ function getExtraData() {
   done
 
   # select
-  read -p "signer select (default: 1,2)" signer_index
+  read -p "signer select (default: $SIGNER_SELECT_DEFAULT)" signer_index
   if [ -z "$signer_index" ]; then
-    signer_index="1,2"
+    signer_index=$SIGNER_SELECT_DEFAULT
   fi
 
   # extract signer address
