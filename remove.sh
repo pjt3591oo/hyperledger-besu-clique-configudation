@@ -7,3 +7,5 @@ rm -rf $NODE_1_DIR
 rm -rf $NODE_2_DIR
 rm -rf $NODE_3_DIR
 rm -rf $NODE_4_DIR
+
+rm genesis.json
