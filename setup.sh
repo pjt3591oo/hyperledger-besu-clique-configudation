@@ -1,5 +1,4 @@
-./clear-data.sh
-./clear-key.sh
+./remove.sh
 
 NODE_1_DIR=node-1
 NODE_2_DIR=node-2
