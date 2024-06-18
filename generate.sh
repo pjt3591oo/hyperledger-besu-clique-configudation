@@ -4,7 +4,7 @@ CHAIN_ID_DEFAULT=10
 BLOCK_PERIOD_SECONDS_DEFAULT=2
 CREATE_EMPTY_BLOCKS_DEFAULT='YES'
 EPOCH_LENGTH_DEFAULT=30000
-SIGNER_SELECT_DEFAULT='1,2'
+SIGNER_SELECT_DEFAULT='1,2,3'
 
 
 
@@ -52,7 +52,7 @@ function getBlockPeriodSeconds() {
 
 function getExtraData() {
   
-  node_indexs=($1 $2 $3 $4)
+  node_indexs=($1 $2 $3 $4 $5)
   index=1
 
   echo ""
@@ -90,7 +90,7 @@ createemptyblocks=$(getCreateEmptyBlocks | tr -d '\n')
 epochlength=$(getEpochLength | tr -d '\n')
 blockperiodseconds=$(getBlockPeriodSeconds | tr -d '\n')
 
-extraData=$(getExtraData 1 2 3 4 | tr -d '\n')
+extraData=$(getExtraData 1 2 3 4 5 | tr -d '\n')
 
 echo ""
 echo ""

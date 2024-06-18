@@ -7,6 +7,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"clique_getSigners","params":["la
 curl -X POST --data '{"jsonrpc":"2.0","method":"clique_getSigners","params":["latest"], "id":1}' localhost:9545
 curl -X POST --data '{"jsonrpc":"2.0","method":"clique_getSigners","params":["latest"], "id":1}' localhost:10545
 curl -X POST --data '{"jsonrpc":"2.0","method":"clique_getSigners","params":["latest"], "id":1}' localhost:11545
+curl -X POST --data '{"jsonrpc":"2.0","method":"clique_getSigners","params":["latest"], "id":1}' localhost:12545
 
 
 # signer metrics 조회(start block, end block)
@@ -22,6 +23,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"clique_proposals","params":[], "
 curl -X POST --data '{"jsonrpc":"2.0","method":"clique_proposals","params":[], "id":1}' localhost:9545
 curl -X POST --data '{"jsonrpc":"2.0","method":"clique_proposals","params":[], "id":1}' localhost:10545
 curl -X POST --data '{"jsonrpc":"2.0","method":"clique_proposals","params":[], "id":1}' localhost:11545
+curl -X POST --data '{"jsonrpc":"2.0","method":"clique_proposals","params":[], "id":1}' localhost:12545
 
 
 # signer 등록/제거 제안 ( address, proposal - true: 등록, false: 제거)
@@ -29,9 +31,11 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"clique_propose","params":["0xf7c
 curl -X POST --data '{"jsonrpc":"2.0","method":"clique_propose","params":["0xf7c4bae784079515f38427823fe584d4cd391762", true], "id":1}' localhost:9545
 curl -X POST --data '{"jsonrpc":"2.0","method":"clique_propose","params":["0xf7c4bae784079515f38427823fe584d4cd391762", true], "id":1}' localhost:10545
 curl -X POST --data '{"jsonrpc":"2.0","method":"clique_propose","params":["0xd10671f5842c30d5613706b67e668d33a6f2ad63", true], "id":1}' localhost:11545
+curl -X POST --data '{"jsonrpc":"2.0","method":"clique_propose","params":["0xd10671f5842c30d5613706b67e668d33a6f2ad63", true], "id":1}' localhost:12545
 
 
 curl -X POST --data '{"jsonrpc":"2.0","method":"clique_propose","params":["0xf7c4bae784079515f38427823fe584d4cd391762", false], "id":1}' localhost:8545
 curl -X POST --data '{"jsonrpc":"2.0","method":"clique_propose","params":["0xf7c4bae784079515f38427823fe584d4cd391762", false], "id":1}' localhost:9545
 curl -X POST --data '{"jsonrpc":"2.0","method":"clique_propose","params":["0xf7c4bae784079515f38427823fe584d4cd391762", false], "id":1}' localhost:10545
 curl -X POST --data '{"jsonrpc":"2.0","method":"clique_propose","params":["0xd10671f5842c30d5613706b67e668d33a6f2ad63", false], "id":1}' localhost:11545
+curl -X POST --data '{"jsonrpc":"2.0","method":"clique_propose","params":["0xd10671f5842c30d5613706b67e668d33a6f2ad63", false], "id":1}' localhost:12545
