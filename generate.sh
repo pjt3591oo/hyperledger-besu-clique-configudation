@@ -124,18 +124,53 @@ json_content=$(cat <<EOF
   "nonce": "0x0",
   "timestamp": "0x5c51a607",
   "alloc": {
-    "fe3b557e8fb62b89f4916b721be55ceb828dbd73": {
-      "privateKey": "8f2a55949038a9610f50fb23b5883af3b4ecb3c3bb792cbcefbd1542c692be63",
+    "394B4E49448dfe7753d141C13B05feeFa98b1399": {
+      "privateKey": "99afd5cb7bb89975bf4f8a8de49a9b798298db5de5881482de8b21c4241394f1",
       "comment": "private key and this comment are ignored.  In a real chain, the private key should NOT be stored",
       "balance": "0xad78ebc5ac6200000"
     },
-    "627306090abaB3A6e1400e9345bC60c78a8BEf57": {
-      "privateKey": "c87509a1c067bbde78beb793e6fa76530b6382a4c0241e5e4a9ec0a0f44dc0d3",
+    "eA3ca46f74AA190dEDc965d41999908A1C93544e": {
+      "privateKey": "c7dddc347a4795321b77bc751f6596f341bdac582916ed812a464ada2128e2c1",
       "comment": "private key and this comment are ignored.  In a real chain, the private key should NOT be stored",
       "balance": "90000000000000000000000"
     },
-    "f17f52151EbEF6C7334FAD080c5704D77216b732": {
-      "privateKey": "ae6ae8e5ccbfb04590405997ee2d52d2b330726137b875053c36d94e974d162f",
+    "b54C13fbf4529ab7a131eBbed222D1Dd29191c9f": {
+      "privateKey": "da6820d49c5198f079cd65749be8268ba6aac645a3de18ff9b14a4ac04f20975",
+      "comment": "private key and this comment are ignored.  In a real chain, the private key should NOT be stored",
+      "balance": "90000000000000000000000"
+    },
+    "A7f9216B9877B5aEeF21d488fF4f40bbe9E39c34": {
+      "privateKey": "997c21aa7b6303b3abcc5f6ffed1c1ce4a5f5c03d511111ed637508cf22b9fa7",
+      "comment": "private key and this comment are ignored.  In a real chain, the private key should NOT be stored",
+      "balance": "0xad78ebc5ac6200000"
+    },
+    "21E56785C9fbf281D4DfB9dbb2198d5688F4a471": {
+      "privateKey": "460c5bb9a3f07f729821139fc1057ff3ba6b362589b7da76c6bd58b4ee516222",
+      "comment": "private key and this comment are ignored.  In a real chain, the private key should NOT be stored",
+      "balance": "90000000000000000000000"
+    },
+    "3Dbf1cfF1AFf98675E7401373c1984F39C096770": {
+      "privateKey": "996981d1cce5dd77cce3df50e1e77127afc9aa75d50abd48ebd8b098a12e5ec1",
+      "comment": "private key and this comment are ignored.  In a real chain, the private key should NOT be stored",
+      "balance": "90000000000000000000000"
+    },
+    "46B2447eB8fE25f14dfd87C9FB3B16133d5a27e9": {
+      "privateKey": "39dc4aadba04cd23ee413f8a6b3f191bbb15a80c3ab55b966200e2a4f59b9170",
+      "comment": "private key and this comment are ignored.  In a real chain, the private key should NOT be stored",
+      "balance": "0xad78ebc5ac6200000"
+    },
+    "Ab3FfE2213e629DC5Bdde7283F0A2Bc0128A5acd": {
+      "privateKey": "e20e0200c2fb1eca38ddf3985fac10b747015cd985d4ff56bbc36d03d30c1b5a",
+      "comment": "private key and this comment are ignored.  In a real chain, the private key should NOT be stored",
+      "balance": "90000000000000000000000"
+    },
+    "446EFF460550a45D0581FBd3b1Fb456b0442EB84": {
+      "privateKey": "7b68edaf8d4e0002a8456ff375f420e544fab8dedcf41f4948dec00f1ab0145e",
+      "comment": "private key and this comment are ignored.  In a real chain, the private key should NOT be stored",
+      "balance": "90000000000000000000000"
+    },
+    "7C6F7576bD2F85DDAC25A2c4fcFAD53c638Cc9c1": {
+      "privateKey": "aebea620e3b5f5085de9017d56ef37088578b2b03f6315f7427eee79ce53dc46",
       "comment": "private key and this comment are ignored.  In a real chain, the private key should NOT be stored",
       "balance": "90000000000000000000000"
     },
