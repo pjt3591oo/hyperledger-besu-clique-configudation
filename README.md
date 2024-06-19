@@ -36,7 +36,6 @@ RPC PORT: 8545
 P2P PORT: 30303
 
 ```bash
-export NODE_1_ENODE=<node1 enode>
 $ ./node-2.start.sh
 ```
 
@@ -44,7 +43,6 @@ RPC PORT: 9545
 P2P PORT: 40303
 
 ```bash
-export NODE_1_ENODE=<node1 enode>
 $ ./node-3.start.sh
 ```
 
@@ -52,7 +50,6 @@ RPC PORT: 10545
 P2P PORT: 50303
 
 ```bash
-export NODE_1_ENODE=<node1 enode>
 $ ./node-4.start.sh
 ```
 
@@ -60,7 +57,6 @@ RPC PORT: 11545
 P2P PORT: 60303
 
 ```bash
-export NODE_1_ENODE=<node1 enode>
 $ ./node-5.start.sh
 ```
 
