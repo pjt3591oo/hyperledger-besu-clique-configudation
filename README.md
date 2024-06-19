@@ -5,7 +5,11 @@ node-1, node-2, node-3, node-4
 * dependencies
 
 ```bash
-besu --version
+$ besu --version
+```
+
+```basg
+$ jq --version
 ```
 
 * permission
