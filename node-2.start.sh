@@ -1,5 +1,3 @@
-export NODE_1_ENODE=<node1 enode>
-
 besu \
   --data-path=node-2/data \
   --genesis-file=genesis.json \

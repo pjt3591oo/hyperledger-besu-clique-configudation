@@ -1,7 +1,5 @@
-export NODE_1_ENODE=<node1 enode>
-
 besu \
-  --data-path=node-4/data \
+  --data-path=node-5/data \
   --genesis-file=genesis.json \
   --bootnodes=$NODE_1_ENODE \
   --network-id 10 \

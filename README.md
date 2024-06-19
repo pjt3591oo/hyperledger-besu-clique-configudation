@@ -60,7 +60,7 @@ RPC PORT: 11545
 P2P PORT: 60303
 
 ```bash
-export NODE_5_ENODE=<node1 enode>
+export NODE_1_ENODE=<node1 enode>
 $ ./node-5.start.sh
 ```
 
