@@ -18,6 +18,7 @@ besu \
   --rpc-http-port=11545 \
   --rpc-http-enabled \
   --rpc-http-api=ETH,NET,CLIQUE \
+  --rpc-http-host=0.0.0.0 \
   --host-allowlist="*" \
   --rpc-http-cors-origins="all" \
   --rpc-http-max-active-connections=3000
